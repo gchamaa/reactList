@@ -1,0 +1,24 @@
+{
+  "name": "reactlist",
+  "version": "1.0.0",
+  "description": "A collaborative to-do list",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gchamaa/reactList.git"
+  },
+  "keywords": [
+    "to-do",
+    "list",
+    "collaboration"
+  ],
+  "author": "Gilbert Chamaa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gchamaa/reactList/issues"
+  },
+  "homepage": "https://github.com/gchamaa/reactList#readme"
+}
