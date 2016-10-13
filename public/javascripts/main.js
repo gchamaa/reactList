@@ -1,2 +1,7 @@
-var myH1 = <h1>Hello World</h1>;
-ReactDOM.render(myH1, document.querySelector('#main'));
+var GeneralPurposeButton = React.createClass({
+  render: function(){
+    return (<button type={this.props.type} id={this.props.id} className={this.props.className}>{this.props.label}</button>)
+  }
+});
+
+ReactDOM.render(<GeneralPurposeButton label="Add Task" type="button" id="addTask" className="genButton"/>, document.querySelector('#main'));
